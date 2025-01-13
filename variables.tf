@@ -12,7 +12,7 @@ variable "instance_type" {
 
 variable "ami" {
   description = "AMI ID"
-  default     = "ami-0c55b159cbfafe1f0"  # Replace with your desired AMI
+  default     =" ami-0e2c8caa4b6378d8c"  # Replace with your desired AMI
 }
 
 variable "security_group_id" {
