@@ -7,12 +7,12 @@ variable "region" {
 
 variable "instance_type" {
   description = "Type of the instance"
-  default     = "t2.micro"
+  default     = "t2.micro"  # Adjust if you need a different instance type
 }
 
 variable "ami" {
   description = "AMI ID"
-  default     =" ami-0e2c8caa4b6378d8c"  # Replace with your desired AMI
+  default     = "ami-05d38da78ce859165"  # Replace with your updated AMI ID
 }
 
 variable "security_group_id" {
